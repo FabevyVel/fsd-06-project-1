@@ -9,6 +9,9 @@
     display: flex;
     justify-content: space-between;
   }
+  .fcl{
+    padding: 30px 0px;
+  }
   .flex-contents{
     display: flex;
     justify-content: center;
@@ -37,7 +40,7 @@
   .contacts a {
     text-decoration: none;
     color: white;
-    padding-right: 50px;
+    padding-right: 64px;
   }
   .main-container h3 {
     color: black;
@@ -46,13 +49,13 @@
     padding-top: 20px;
   }
   .left-section{
-    width: 40%;
+    width: 48%;
   }
   .right-section{
-    width: 40%;
+    width: 48%;
   }
   .content-section h2 {
-    text-decoration: none;
+    text-decoration: underline;
     color: #3e8593;
     font-size: 20px;
     font-weight: bold;
@@ -63,40 +66,77 @@
     padding: 5px 0px;
   }
   .content-type-1-section-1 h6 {
-    font-size: 7px;
+    font-size: 18px;
     font-style: italic;
     color: #807e7e;
     padding-bottom: 10px;
   }
-  .left-section .sub-highlight{
+  .sub-highlight{
     font-style: italic;
     font-size: 15px;
-    word-spacing: 200px;
+    word-spacing: 334px;
     color: #61aabf;
     display: block;
   }
-  .main-container ul{
-    font-size: 10px;
-    list-style-type: square;
-    list-style-position: inside;
+  .sub-highlight1{
+    font-style: italic;
+    font-size: 15px;
+    word-spacing: 392px;
+    color: #61aabf;
+    display: block;
   }
-  .left-section .sub-highlight-1{
+  .sub-highlight2{
+    font-style: italic;
+    font-size: 15px;
+    word-spacing: 380px;
+    color: #61aabf;
+    display: block;
+  }
+  .sub-highlight3{
+    font-style: italic;
+    font-size: 15px;
+    word-spacing: 302px;
+    color: #61aabf;
+    display: block;
+  }
+  .sub-highlight4{
+    font-style: italic;
+    font-size: 15px;
+    word-spacing: 288px;
+    color: #61aabf;
+    display: block;
+  }
+  .sub-highlight-1{
     font-style: italic;
     font-size: 15px;
     color: #61aabf;
+    display: block;
+    padding: 5px 0px;
   }
-  .right-section .blocks li{
+  .main-container ul li{
+    font-size: 19px;
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+  .blocks ul li{
     display: inline-block;
     border: 1px solid #989da6;
-    border-radius: 3px;
+    border-radius: 5px;
     background-color: #989da6;
     color: white;
+    padding: 5px 8px;
+    margin: 5px 15px 5px 0px;
   }
-  .right-section .blocks-1 ul li {
+  .blocks-1 ul li{
     display: inline-block;
     border: 1px solid #b2b2b2;
-    border-radius: 3px;
-    padding: 3px;
+    border-radius: 5px;
+    padding: 5px 8px;
     color: black;
+    margin: 15px 3px 15px 0px;
   }
-  
+  .content-type{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
