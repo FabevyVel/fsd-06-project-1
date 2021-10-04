@@ -1,0 +1,152 @@
+/* header start */
+.header {
+  text-align: center;
+  color: #fff;
+  background-color: rgb(3, 103, 150);
+  padding: 20px 10px;
+}
+.header img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 80px;
+}
+.contact {
+  padding: 10px 10px;
+  color: #fff;
+  text-align: center;
+  background-color: black;
+}
+.fa-envelope {
+  padding-left: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+.fa-phone {
+  padding: 0px 45px;
+  text-decoration: none;
+  color: #fff;
+}
+/* header ends */
+
+/* section 1 starts */
+
+.edu-sec h2 {
+  color: rgb(3, 103, 150);
+  text-decoration: underline;
+}
+.edu-sec span {
+  padding: 1% 7%;
+  color: rgb(3, 103, 150);
+}
+.skills-sec {
+  top: 28rem;
+  left: 42rem;
+  position: absolute;
+}
+.skills-sec h2 {
+  color: rgb(3, 103, 150);
+  text-decoration: underline;
+}
+.skills-sec {
+  text-decoration: none;
+}
+.skills-sec span {
+  display: flex;
+  flex-wrap: wrap;
+}
+.skills-sec ol {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: rgb(158, 155, 155);
+  color: #fff;
+  margin: 8px 21px;
+}
+.info{
+    padding: 20px 0;
+}
+.language{
+    top: 44rem;
+    left: 42rem;
+    position: absolute;
+}
+.language h2{
+  color: rgb(3, 103, 150);
+  text-decoration: underline;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.lang-1{
+    margin: 10px 25px;
+    text-align: center;
+}
+.lang-1 h6{
+    font-size: 14px;
+    color: gray;
+}
+.lang-2{
+    margin: 10px 25px;
+    text-align: center;
+}
+.lang-2 h6{
+    font-size: 14px;
+    color: gray;
+}
+.lang-3{
+    margin: 10px 25px;
+    text-align: center;
+}
+.lang-3 h6{
+    font-size: 14px;
+    color: gray;
+}
+.intrest{
+    position: absolute;
+    left: 42rem;
+    top: 55rem;
+}
+.intrest h2{
+    color: rgb(3, 103, 150);
+    text-decoration: underline; 
+}
+.int-cont{
+    display: flex;
+}
+.int-cont h5{
+    color: #fff;
+    padding: 10px 20px;
+    border: hidden;
+    border-radius: 10px;
+    background-color: rgb(158, 155, 155) ;
+    text-align: center;
+}
+.boxing{
+    margin: 0px 30px;
+}
+.volley{
+    margin: 0px 30px;
+}
+.swim{
+    margin: 0px 30px;
+}
+.info h2{
+    color: rgb(3, 103, 150);
+    text-decoration: underline; 
+}
+.info h3{
+    color: rgb(3, 103, 150) ;
+}
+.dob{
+    padding-left: 15px;
+}
+.address{
+    padding-left: 15px;
+}
+.dec{
+    margin-bottom: 5rem;
+    text-align: center;
+}
+.dec h3{
+   color:  rgb(3, 103, 150);
+}
