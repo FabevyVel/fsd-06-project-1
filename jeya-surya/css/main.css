@@ -1,0 +1,60 @@
+#head{
+    background-color: #313c4e;
+    padding: 10px;
+}
+h1{
+    font-size: 40px;
+    color: white;
+    font-weight:bold;
+}
+h2{
+    color: #43887b;
+    font-weight: bold;
+}
+#head p{
+    color: white;
+    padding: 5px;
+}
+#contacts{
+    background-color: #222a33;
+    color: white;
+    padding: 10px;
+}
+a{
+margin: 50px;
+color: white;
+text-decoration: none;
+}
+span{
+font-style: italic;
+}
+#main-section{
+    display:flex;
+
+}
+.content-section{
+    margin: 20px;
+}
+.content-section h2{
+    font-size: 20px;
+    color:#44939b;
+}
+.content-type-1-section{
+    padding: 4px;
+}
+.sub-highlits{
+    color:#44939a;
+    font-style: italic;
+    padding-right:100px;
+    font-size:12px;
+}
+.content-type-1-section h3{
+    font-weight: bold;
+    font-size: 16px;
+    color: black;  
+}
+ul li{
+    list-style:circle;
+    list-style:inside;
+    font-size: 12px;
+}
