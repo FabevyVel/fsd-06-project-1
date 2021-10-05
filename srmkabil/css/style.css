@@ -12,6 +12,11 @@
   .fcl{
     padding: 30px 0px;
   }
+  .img-fluid{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+  }
   .flex-contents{
     display: flex;
     justify-content: center;
@@ -25,7 +30,7 @@
     font-size: 23px;
   }
   .header p {
-    font-size: 18px;
+    font-size: 20px;
     color: white;
     padding-top: 10px; 
   }
