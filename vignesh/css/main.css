@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 body{
   background-image: url(../images/resume.jpg);
   background-position: center top;
   height: 1750px;
 }
 .header {
+=======
+ #header {
+  margin: 0px 60px 0px 60px;
+>>>>>>> 3840e66b8c628fbeac01c6467861044ce3ab7221
   background-color: #313c4e;
   height: 260px;
 }
