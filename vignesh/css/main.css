@@ -1,87 +1,168 @@
-#header {
+<<<<<<< HEAD
+body{
+  background-image: url(../images/resume.jpg);
+  background-position: center top;
+  height: 1750px;
+}
+.header {
+=======
+ #header {
   margin: 0px 60px 0px 60px;
+>>>>>>> 3840e66b8c628fbeac01c6467861044ce3ab7221
   background-color: #313c4e;
-  padding: 10px;
+  height: 260px;
 }
-#header h1 {
-  font-size: 25px;
+.main-section{
+  height: 1363px;
+  padding: 33px;
+  background-color: white
+  ;
+}
+.container {
+  width: 1130px;
+  margin: 0px auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.flex-container {
+  display: flex;
+}
+.sb {
+  justify-content: space-between;
+}
+.header h1 {
   color: white;
+  font-size: 49px;
+  padding-bottom: 5px;
+  padding-top: 46px;
 }
-#header h4 {
-  color: #3e8593;
-  font-size: 12px;
-  padding-top: 2px;
+.header h4 {
+  color: #418f93;
+  font-size: 28px;
 }
-#header p {
-  font-size: 8px;
+.header p {
   color: white;
-  padding-top: 7px;
+  font-size: 23px;
+  padding: 25px 0px;
+  width: 113%;
+}
+.image {
+  padding: 49px;
+}
+.image img {
+  border-radius: 100%;
+  width: 184px;
+  height: 173px;
+}
+.contacts {
+  background-color: #222a33;
+  height: 23px;
+  padding: 18px;
+  font-size: 19px;
+}
+.center {
+  justify-content: center;
+}
+.contacts a {
+  color: white;
+  padding: 45px;
+}
+.col82 {
+  width: 74%;
+}
+.col12 {
+  width: 10%;
+}
+.se {
+  justify-content: space-between;
+}
+.sa{
+  justify-content: space-around;
+}
+.col48 {
+  width: 46%;
 }
 .content-section h2 {
+  font-weight: bold;
+  color: #449399;
+  font-size: 31px;
   text-decoration: underline;
-  color: #3e8593;
-  font-size: 13px;
-  padding-top: 5px;
-  padding-bottom: 3px;
+  padding-bottom: 12px;
 }
-#contacts {
-  margin: 0px 60px 0px 60px;
-  background-color: #222a33;
-  color: white;
-  text-align: center;
-  font-size: 10px;
-  word-spacing: 10px;
-  padding: 10px;
+.content-section h3 {
+  padding-top: 8px;
+  font-weight: bold;
+  font-size: 29px;
 }
-#contacts a {
-  color: white;
+.content-section p {
+  font-size: 28px;
+  padding-bottom: 7px;
+
 }
-#main-section {
-  margin: 0px 0px 0px 60px;
-}
-#main-section h3 {
-  color: black;
-  font-weight: bolder;
-  font-size: 11px;
-  padding-bottom: 1px;
-  padding-top: 2px;
-}
-.content-type-1-section-1 p {
-  font-size: 10px;
-}
-.content-type-1-section-1 h6 {
-  font-size: 7px;
+.sub-highlight {
   font-style: italic;
-  color: #807e7e;
+  color: skyblue;
+  font-size: 19px;
+  display: inline-block;
+  padding: 5px 0px;
+}
+ul li {
+  font-size: 19px;
+  list-style: square;
+  list-style-position: inside;
   padding-bottom: 10px;
 }
-.left-section .sub-highlight{
-  font-style: italic;
-  font-size: 7px;
-  color: #61aabf;
-  display: block;
-}
-#main-section ul {
-  font-size: 7px;
-  list-style-type: square;
-  list-style-position: inside;
-}
-.left-section .sub-highlight-1 {
-  font-style: italic;
-  font-size: 7px;
-  color: #61aabf;
-}
-.right-section .blocks li {
+.blocks li {
   display: inline-block;
-  border: 1px solid #989da6;
-  border-radius: 3px;
+  border: 1px solid white;
+  border-radius: 12px;
   background-color: #989da6;
+  width: 111px;
+  text-align: center;
+  padding: 7px;
+  margin: 7px 0px 2px 10px;
   color: white;
 }
-.right-section .blocks-1 li {
+.sub-highlight-2 {
+  font-style: italic;
+  font-size: 13px;
+  color: #9d9897;
   display: inline-block;
-  border: 1px solid #b2b2b2;
-  border-radius: 3px;
-  padding: 3px;
-  color: black;
+  padding-bottom: 11px;
+}
+.blocks-1 li{
+    border: 2px solid #989da6;
+    border-radius: 12px;
+    display: inline-block;
+    padding: 10px;
+}
+.blocks{
+  padding-bottom: 10px;
+}
+.highlight-1 .sub-highlight{
+padding-bottom: 32px;
+}
+.highlight-1 p{
+  padding bottom: 5px;
+}
+.content-type-1-section-1 h6{
+  font-style: italic;
+  font-size: 13px;
+  color: #9d9897;
+  padding-bottom: 10px;
+}
+.content-type-1-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 81%;
+  justify-content: space-between;
+} 
+.right-side .content-section{
+  padding-bottom: 50px;
+}
+.right-side p{
+  font-size: 21px;
+  padding: 2px;
+}
+.right-side h6{
+  padding-bottom: 5px;
 }
