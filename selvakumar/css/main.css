@@ -111,8 +111,13 @@ h4{
     padding: 4px;
     margin: 5px;
 }
+<<<<<<< HEAD
+
+.blocks-1 li{
+=======
 .sub{
     padding-bottom: 10px;
+>>>>>>> 3840e66b8c628fbeac01c6467861044ce3ab7221
     display: inline-block;
     justify-content: space-between;
 }

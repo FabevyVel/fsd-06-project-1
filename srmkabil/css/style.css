@@ -1,4 +1,4 @@
-.header {
+  .header {
     background-color: #313c4e;
   }
   .container{
@@ -39,7 +39,6 @@
     color: white;
     text-align: center;
     font-size: 16px;
-    word-spacing: 50px;
     padding: 10px;
   }
   .contacts a {
@@ -81,35 +80,30 @@
     font-size: 15px;
     word-spacing: 334px;
     color: #61aabf;
-    display: block;
   }
   .sub-highlight1{
     font-style: italic;
     font-size: 15px;
     word-spacing: 392px;
     color: #61aabf;
-    display: block;
   }
   .sub-highlight2{
     font-style: italic;
     font-size: 15px;
     word-spacing: 380px;
     color: #61aabf;
-    display: block;
   }
   .sub-highlight3{
     font-style: italic;
     font-size: 15px;
     word-spacing: 302px;
     color: #61aabf;
-    display: block;
   }
   .sub-highlight4{
     font-style: italic;
     font-size: 15px;
     word-spacing: 288px;
     color: #61aabf;
-    display: block;
   }
   .sub-highlight-1{
     font-style: italic;
