@@ -20,23 +20,23 @@ header{
     height: 200px;
 }
 .image_icon{
-    padding: 20px 0px 10px 20px;
+    padding: 20px 0px 10px 80px;
 }
 #header_container h1{
     font-size: 42px;
     color: white;
-    padding: 20px 10px 0px 12%;
+    padding: 20px 10px 0px 20%;
     font-weight: bold;
 }
 #header_container h4{
     font-size: 30px;
-    padding-left: 12%;
+    padding-left: 20%;
     color: rgb(68 147 153);
 }
 #header_container p{
-    font-size: 22px;
+    font-size: 20px;
     color: white;
-    padding:10px 0px 20px 12%;
+    padding:10px 0px 20px 20%;
 }
 #contact{
     padding-bottom: 20px;
@@ -50,7 +50,7 @@ header{
     padding: 10px 0px 10px 24%;
 }
 #contact a{
-    padding-left: 100px;
+    padding-left: 50px;
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -58,12 +58,12 @@ header{
 #contact span{
     color: white;
     font-size: 20px;
-    padding-left: 160px;
+    padding-left: 76px;
 }
 /* left side section style start here*/
 .left-col{
     width: 45%;
-    margin-left: 50px;
+    margin-left: 120px;
 }
 .main_section{
     background-color: #fff;
@@ -124,6 +124,7 @@ header{
 }
 .a li{
     padding-left: 20px;
+    list-style: disc;
 }
 .certificate_content span{
     font-size: 17px;
