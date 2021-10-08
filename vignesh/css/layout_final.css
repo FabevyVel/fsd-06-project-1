@@ -1,10 +1,11 @@
-. {
+ *{
   box-sizing: border-box;
 } 
 body {
   background-image: url(../images/resume.jpg);
   background-position: center top;
   height: 1750px;
+  font-family: 'Nunito', sans-serif;
 }
 .flex-container {
   display: flex;
@@ -33,10 +34,12 @@ body {
   background-color: #313c4e;
 }
 .header h1 {
+  font-family: 'Croissant One', cursive;
   color: white;
   font-size: 53px;
   padding-bottom: 5px;
   padding-top: 45px;
+  font-weight: 800;
 }
 .header h4 {
   color: #418f93;
@@ -64,6 +67,9 @@ body {
   padding: 18px;
   font-size: 19px;
   display: inline-block;
+}
+.flex-item i{
+  padding-right: 4px;
 }
 .main-section {
   padding: 33px 0px;
@@ -123,7 +129,7 @@ body {
   padding-bottom: 45px;
   }
   .highlight-1 p{
-    padding bottom: 5px;
+    padding-bottom: 5px;
   }
   .content-type-1-section-1 h6{
     font-style: italic;
@@ -153,6 +159,7 @@ body {
 .right-col{
     padding-left: 40px;
 }
+
 .col-1 {
   width: 8.333333333333333%;
 }
