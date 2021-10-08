@@ -1,181 +1,225 @@
-body {
-    background-image: url(../images/resume.jpg);
-    background-position: center top;
-    height: 1750px;
-    width: auto;
-  }  
-  .header {
-    background-color: #303b4c;
-    height: 259px;
-  }
-  .contacts {
-    background-color: #222a33; 
-    height: 60px;
-  }
-  .main-section {
-  background-color: white; 
-  height: 1330px;
-  padding: 5px;
-  }
-  .container {
-   width: 1142px;
-   margin: 0 auto;
-  }
-  .fc-1 {
-   padding-right: 40px;
-  }
-  .fc-2 {
-   padding-left: 10px;
-  }
-  .fc-1 h1 {
-  font-size: 50px;
-  color: white;
-  padding-top: 27px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  .fc-1 h4{
-     font-size: 30px;
-     color: #449399;
-     padding-top: 5px;
-     padding-bottom: 20px;
-  }
-  .fc-1 p {
-     color: white;
-     font-size: 25px;
-  }
-  span {
-   padding-bottom: 10px;
-  }
-  .content-2 {
-  display: flex;
-  justify-content: space-evenly;
-  text-decoration: none;
-  padding: 19px 0px;
-  font-size: 23px;
-
-  }
-  .fc{
-  display: flex;
-  }
-  .space {
-  padding-bottom: 10px;
-  font-size: 20px;
-  }
-  .content-1 {
-  display: flex;
-  width: 90%;
-  padding: 5px;
-  justify-content: space-evenly;
-  }
-  a{
-  display: inline-block;
-  padding: 0 15px;
-  color: white;
-  font-size: 25px;
-  text-decoration: none;
-  justify-content: space-between;
-  }
-  .fc{
-    display: flex;
-    justify-content: space-between;
-  }
-  .content-section h2{
-  color: #449399;
-  font-size: 28px;
-  text-decoration: underline;
-  padding-bottom: 5px;
-  padding-top: 10px;
-  font-weight: bold;
-  }
-  .content-type-1-section{
-  padding-top:15px;
-  padding-bottom: 20px;
-  }
-  .content-type-1-section h3 {
-  font-size: 30px;
-  font-weight: bold;
-  padding-bottom: 5px;
-  } 
-  .content-type-1-section p {
-  font-size: 30px; 
-   padding-bottom: 8px;
-  }
-.space{
-    display: flex;
-    justify-content: space-between;
+*{
+  box-sizing: border-box;
 }
-  .col-48 {
-  width: 48%;
-  height: 700px;
-  justify-content: space-between;
-
-  }
-  .content-type-1-section li {
-  font-size: 25px;
-  list-style: inside;
-  padding-top: 5px;
-  }
-  .sub-highlight-1{
-  color: #78ceeb;
-  font-style: italic;
-  padding-top: 4px;
-  font-size: 20px;
-  }
-  .sub-highlight-1 li {
-  font-size: 30px;
-  font-weight: bold;
-  }
-  .sub-highlight-2 {
-  color: gray;
-  font-style: italic;
-  font-size: 25px;
-  }
-  .batch-1 ul{
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .batch-1 li {
-  display: inline-block;
-  margin: 5px 15px 5px 5px;
-  border-radius: 5px;
-  border-style: solid;
-  background-color: #989da6;
-  color: white;
-  padding: 10px;
-  font-size: 25px;
-  
-  }
-  .batch-2 li {
-  display: inline-block;
-  margin: 5px;
-  border: 2px;
-  border-color: gray;
-  border-radius: 5px;
-  border-style: solid;
-  background-color: white;
-  color: black;
-  padding: 5px;
-  font-size: 25px;
-  }
-  .fc-2 img {
-    padding: 35px 0 40px 0;
-  border-radius: 50%;
-  
-  }
-  .list-3 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+body {
+  background-image: url(../image/resume.jpg);
+  background-position: center top;
+  height: 1750px;
+  width: auto;
+  font-family: 'Roboto', sans-serif;
+  font-family: 600;
+}  
+.header {
+  background-color: #303b4c;
+  height: 259px;
+}
+.contacts {
+  background-color: #222a33; 
+  height: 60px;
+}
+.main-section {
+background-color: white; 
+height: 1330px;
+padding: 10px;
+}
+.container {
+ width: 1150px;
+ margin: 0 auto;
+}
+a i{
   padding-right: 10px;
-  padding-bottom: 15px;
+}
+.fi-1 h1 {
+font-size: 55px;
+color: white;
+font-family: 'Noto Sans Display', sans-serif;
+font-weight: 800;
+}
+.fi-1 h4{
+   font-size: 30px;
+   color: #449399;
+   padding-bottom: 20px;
+}
+.fi-1 p {
+   color: white;
+   font-size: 23px;
+}
+
+.col-1{
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+  padding-inline-end: 20px;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+span {
+ padding-bottom: 10px;
+}
+.content-2 {
+display: flex;
+justify-content: space-evenly;
+padding: 20px;
+font-size: 23px;
+}
+.fc{
+display: flex;
+}
+.space {
+display: flex;
+justify-content: space-between;
+}
+.flexcontainer {
+display: flex;
+padding-top: 34px;
+justify-content: space-evenly;
+}
+a{
+text-decoration: none;
+display: inline-block;
+padding: 0 15px;
+color: white;
+font-size: 25px;
+}
+.content-section h2{
+color: #449399;
+font-size: 28px;
+text-decoration: underline;
+padding-bottom: 5px;
+padding-top: 16px;
+font-weight: bold;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.content-type-1-section{
+padding-top:15px;
+padding-bottom: 20px;
+}
+.content-type-1-section h3 {
+font-size: 30px;
+font-weight: bold;
+padding-bottom: 5px;
+} 
+.content-type-1-section p {
+  font-size: 25px; 
+  font-weight: 520;
+ padding-bottom: 8px;
+}
+.col-48 {
+width: 46%;
+height: 700px;
+}
+.content-type-1-section li {
+font-size: 24px;
+list-style: inside;
+padding-top: 5px;
+}
+.fc {
+  justify-content: space-between;
+}
+
+.space{
+  color: #449399;
+  font-style: italic;
+  padding-top: 2px;
   font-size: 20px;
-  }
-  .fc-3 p{
-  font-size: 25px;
-  }
-  li {
+  justify-content: space-between;
+}
+.sub-highlight-1 li {
+font-size: 20px;
+font-weight: bold;
+}
+.sub-highlight-1 li {
+font-size: 30px;
+font-weight: bold;
+}
+.sub-highlight-2 {
+color: gray;
+font-style: italic;
+font-size: 25px;
+}
+.sub-highlight-3{
+  color: #449399;
+  font-style: italic;
+  padding-top: 2px;
+  padding-bottom: 5px;
   font-size: 20px;
-  }
-  jc-sb{
-    justify-content: space-between;
-  }
+}
+ul{
+  display: flex;
+  flex-wrap: wrap
+}
+.box-1 li {
+display: inline-block;
+margin: 5px 15px 5px 5px;
+border-radius: 5px;
+border-style: solid;
+background-color: #989da6;
+color: white;
+padding: 10px;
+font-size: 23px;
+}
+.batch-2 li {
+display: inline-block;
+margin: 5px;
+border: 2px;
+border-color: gray;
+border-radius: 5px;
+border-style: solid;
+background-color: white;
+color: black;
+padding: 5px;
+font-size: 25px;
+}
+img {
+border-radius: 50%;
+border: 5px solid #222a33;
+}
+.list-3 {
+display: flex;
+justify-content: space-between;
+padding-right: 10px;
+padding-bottom: 20px;
+font-size: 20px;
+}
+.list {
+  padding-top: 20px;
+}
+.fc-3 p{
+font-size: 25px;
+}
+li {
+font-size: 20px;
+}
+.left-side{
+  margin-right: 60px;
+
+}
