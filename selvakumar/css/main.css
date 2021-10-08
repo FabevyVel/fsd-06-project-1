@@ -31,6 +31,7 @@
 }
 .col-2{
     width: 16.66%;
+    padding: 40px 0;
 }
 .col-3{
     width: 25%;
@@ -46,7 +47,6 @@
 }
 img{
     border-radius: 50%;
-    margin: 38px;
     height: 177px;
     width: 187px;
 }
@@ -55,6 +55,7 @@ body{
     /* background-image: url(../doc/resume.jpg); */
     background-position: center top;
     height: 1750px;
+    font-family: 'Hahmlet', serif;
 }
 .container{
     width: 1142px;
@@ -67,8 +68,9 @@ body{
 .header h1{
     color: white;
     font-size: 54px;
-    font-weight: 500;
     padding-top: 41px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
 }
 .header p{
     color: white;
@@ -89,6 +91,10 @@ body{
     padding: 19px 0;
     padding-right: 22px;
     font-size: 22px;
+    text-decoration: none;
+}
+.contact i{
+    padding-right: 5px;
 }
 .main-content{
     height: 1336px;
@@ -108,7 +114,6 @@ body{
     font-size: 20px;
     padding-bottom: 23px;
     padding-top: 12px;
-    padding-right: 25px;
     font-weight: 490;
 }
 .left-col .content-type-2 .sub-highlight-1{
@@ -162,7 +167,13 @@ body{
     margin: 6px;
 }
 
-.right-col ul{
+.right-col{
+    padding-left: 35px;
+}
+.project{
+    padding-top: 10px;
+}
+.right-col .content-type-4 ul{
     list-style: disc;
     padding-left: 30px;
     padding-top: 10px;
@@ -170,7 +181,7 @@ body{
     font-size: 19px;
     font-weight: 500;
 }
-.right-colol ul li{
+.right-colol .content-type-4 ul li{
     font-size: 16px;
     list-style-position: inside;
 }
@@ -185,6 +196,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .lang-sec h2{
     padding-top: 57px;
 }
@@ -198,6 +210,9 @@ body{
     font-weight: 500;
 }
 
+.int-sec{
+    padding-top: 47px;
+}
 .empty-box ul{
     display: flex;
 }
