@@ -4,15 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vignesh.layout</title>
-    <link rel="stylesheet" href="css/main.css" />
+    <title>Vignesh_layout_resume</title>
     <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="../icofont/icofont.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/layout_final.css" />
   </head>
   <body>
     <div class="header">
       <div class="container">
         <div class="flex-container sb">
-          <div class="left-item col82">
+          <div class="left-item fi col-10">
             <div>
               <h1>Vignesh Sankaralingam</h1>
               <h4>Mechanical engineer</h4>
@@ -23,25 +27,25 @@
               </p>
             </div>
           </div>
-          <div class="image col12">
-            <img src="images/image.jpg" alt="Vignesh Image">
+          <div class="right-item fi col-2">
+            <img src="images/image.jpg" alt="Vignesh Image" />
           </div>
         </div>
       </div>
     </div>
     <div class="contacts">
       <div class="container">
-        <div class="flex-container center">
-          <div>
+        <div class="flex-container sc">
+          <div class="flex-item fi">
             <a href="mailto:vignesh.s.vs06@gmail.com"
-              >vignesh.s.vs06@gmail.com</a
+              ><i class="icofont-email"></i>vignesh.s.vs06@gmail.com</a
             >
           </div>
-          <div>
-            <a href="tel:+919245410092">9245410092</a>
+          <div class="flex-item fi">
+            <a href="tel:+919245410092"><i class="icofont-iphone"></i>9245410092</a>
           </div>
-          <div>
-            <a href="location">Tirunelveli,India</a>
+          <div class="flex-item fi">
+            <a href="location"><i class="icofont-location-pin"></i>Tirunelveli,India</a>
           </div>
         </div>
       </div>
@@ -49,7 +53,7 @@
     <div class="main-section">
       <div class="container">
         <div class="flex-container sb">
-          <div class="left-side col48">
+          <div class="left-col fi col-6">
             <!--education starts-->
             <div class="content-section">
               <div>
@@ -97,7 +101,7 @@
                     <span class="sub-highlight">Chennai</span>
                   </div>
                   <span class="sub-highlight">Achievements/Tasks</span>
-                  <ul>
+                  <ul class="dot">
                     <li>
                       Responsible for the various process in heat treatment
                       department such as LPC ( low pressure carburising,
@@ -114,7 +118,7 @@
                     <span class="sub-highlight">Tirunelveli</span>
                   </div>
                   <span class="sub-highlight">Achievements/Tasks</span>
-                  <ul>
+                  <ul class="dot">
                     <li>
                       General services, problem identification and engine
                       assembly for LMV commercial vehicles with senior
@@ -126,7 +130,7 @@
             </div>
             <!--experience ends-->
           </div>
-          <div class="right-side col48">
+          <div class="right-col fi col-6">
             <!--soft skill starts-->
             <div class="content-section">
               <div>
@@ -134,7 +138,7 @@
               </div>
               <div class="content-type-1">
                 <div class="blocks">
-                  <ul>
+                  <ul class="flex-container wrap">
                     <li>CAD</li>
                     <li>Solid works</li>
                     <li>Team player</li>
@@ -159,7 +163,7 @@
                     Synthesis and characteristics of waste plastic oil by
                     ultrasonication (04/2019)
                   </p>
-                  <ul>
+                  <ul class="dot">
                     <li>
                       Conversion of waste plastic into plastic oil by pyrolysis,
                       then mixed with ethanol and converted into biofuel by
@@ -171,7 +175,7 @@
                   <p>
                     Gearless power transmission in angular position (12/2018)
                   </p>
-                  <ul>
+                  <ul class="dot">
                     <li>
                       Transformation of power in horizontal or veritcal position
                       without using the gear inorder to reduce the wear and tear
@@ -219,8 +223,8 @@
             <!--language starts-->
             <div class="content-section">
               <h2>LANGUAGES</h2>
-              <div class="content-type-1-wrap">
-                <div class="content-type-1-section-1">
+              <div class="content-type-1 flex-container sb wrap">
+                <div class="content-type-1-section-1 col-4">
                   <p>Tamil</p>
                   <h6>Mother Tongue</h6>
                 </div>
@@ -240,7 +244,7 @@
               <div><h2>INTERESTS</h2></div>
               <div class="content-type-1">
                 <div class="blocks-1">
-                  <ul>
+                  <ul class="flex-container">
                     <li>Badminton</li>
                     <li>Swimming</li>
                     <li>Volleyball</li>

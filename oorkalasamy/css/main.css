@@ -1,8 +1,12 @@
-body {
+* {
+  box-sizing: border-box;
+}
+  body {
   background-image: url(../doc/resume.jpg);
   background-position: center top;
   height: 1750px;
   width: auto;
+  font-family: 'Oswald', sans-serif;
 }  
 .header {
   background-color: #303b4c;
@@ -23,12 +27,14 @@ padding: 10px;
  margin: 0 auto;
 }
 .fc-1 {
- padding-right: 80px;
+ padding-right: 0px;
 }
 .fc-1 h1 {
 font-size: 55px;
 color: white;
 padding-top: 10px;
+font-family: 'Spectral', serif;
+font-weight: 800;
 }
 .fc-1 h4{
    font-size: 30px;
@@ -39,6 +45,44 @@ padding-top: 10px;
 .fc-1 p {
    color: white;
    font-size: 24px;
+}
+
+.col-1{
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+  padding-inline-end: 20px;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
 }
 span {
  padding-bottom: 10px;
@@ -58,7 +102,6 @@ justify-content: space-between;
 }
 .content-1 {
 display: flex;
-width: 90%;
 padding: 5px;
 justify-content: space-evenly;
 }
@@ -209,4 +252,8 @@ font-size: 25px;
 }
 li {
 font-size: 20px;
+}
+.left-side{
+  margin-right: 60px;
+
 }
