@@ -2,25 +2,62 @@ body{
     background-image: url(../image/resume.jpg);
     background-position: top center;
     height: 1750px;
+    font-family: Oswald;
 }
  .container{
     width: 1142px;
     margin: 0 auto;
 }
+.col-1{
+  width: 8.33%;
+}
+.col-2{ 
+  width: 16.66% ;
+}
+.col-3{
+  width: 25%;
+}
+.col-4{
+  width: 33.33%;
+}
+.col-5{
+  width: 41.66%;
+}
+.col-6{
+  width: 50%;
+}
+.col-7{
+  width: 58.33%;
+}
+.col-8{
+  width: 66.66%;
+}
+.col-9{
+  width: 75%;
+}
+.col-10{
+  width: 83.33%;
+}
+.col-11{
+  width: 91.66%;
+}
+.col-12{
+  width: 100%;
+}
+
 .fc{
     display: flex;
 }
 .header{
 background-color: #323639;
 height: 259px;
-}
-.icon{
-    margin-right: 200px;
+font-family: Old Standard TT;
 }
 .icon img{
     width: 150px;
     height: 150px;
     border-radius: 76px;
+    padding-top: 10px;
 }
 .fc h1{
 font-size: 60px;
@@ -34,7 +71,7 @@ padding-top: 41px;
     font-size: 27px;
 }
 .header p {
-    font-size: 28px;
+    font-size: 26px;
     color: white;
     padding-top: 10px; 
   }
@@ -56,6 +93,9 @@ height: 60px;
     color: white;
     text-decoration: none;
     padding-right: 41px;
+  }
+  .contect i{
+padding-right: 10px;
   }
 .main-container{
 background-color: white;
@@ -153,15 +193,7 @@ height: 1489px;
     color: #807e7e;
     padding-bottom: 10px;
   }
-.col-2{ 
-    width: 16.66% ;
-}
-.col-6{
-    width: 50%;
-}
-.col-10{
-    width: 83.33%;
-}
-.col-12{
-    width: 100%;
+.content-type{
+  display: flex;
+  justify-content: space-between;
 }
