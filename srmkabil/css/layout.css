@@ -2,6 +2,7 @@ body{
     background-image: url(../images/resume.jpg);
     background-position: center top;
     height: 1750px;
+    font-family: 'Oswald', sans-serif;
 }
 .container{
     width: 1142px;
@@ -50,15 +51,16 @@ body{
 .header h1 {
     font-size: 50px;
     color: #ffffff;
+    font-family: 'Spectral',serif;
 }
 .header h4 {
     color: #3e8593;
-    font-size: 31px;
+    font-size: 28px;
 }
 .header p {
-    font-size: 24px;
+    font-size: 22px;
     color: white;
-    padding-top: 21px; 
+    padding-top: 27px; 
 }
 .fc{
       display: flex;
@@ -87,7 +89,10 @@ body{
 .contacts a{
   text-decoration: none;
   color: white;
-  padding: 0px 37px;
+  padding: 0px 20px;
+}
+.contacts i{
+  padding-right: 10px;
 }
 .main-container{
     background-color: #fff;
@@ -98,7 +103,7 @@ body{
     font-weight: bold;
     font-size: 30px;
     padding-top: 22px;
-  }
+  } 
   .content-type-2-section-1 h3{
     color: black;
     font-weight: bold;
@@ -108,8 +113,8 @@ body{
   .content-type-3-section-1 h3{
     color: black;
     font-weight: bold;
-    font-size: 30px;
-    padding-top: 32px;
+    font-size: 27px;
+    padding-top: 39px;
   }
   .content-type-4-section-1 h3{
     color: black;
@@ -120,11 +125,14 @@ body{
   .content-type-5-section-1 h3{
     color: black;
     font-weight: bold;
-    font-size: 31px;
-    padding-top: 25px;
+    font-size: 27px;
+    padding-top: 40px;
   }
   .left-section{
     margin-right: 4%;
+  }
+  .right-section{
+    margin-left: 4%;
   }
   .content-section h2 {
     text-decoration: underline;
@@ -143,16 +151,16 @@ body{
   .content-section2 h2 {
     text-decoration: underline;
     color: #3e8593;
-    font-size: 28px;
+    font-size: 27px;
     font-weight: bold;
     padding-top: 32px;
   }
   .content-section3 h2 {
     text-decoration: underline;
     color: #3e8593;
-    font-size: 29px;
+    font-size: 27px;
     font-weight: bold;
-    padding-top: 42px;
+    padding-top: 54px;
   }
   .content-section4 h2 {
     text-decoration: underline;
@@ -164,9 +172,9 @@ body{
   .content-section5 h2 {
     text-decoration: underline;
     color: #3e8593;
-    font-size: 30px;
+    font-size: 27px;
     font-weight: bold;
-    padding-top: 35px;
+    padding-top: 43px;
   }
   .content-section6 h2 {
     text-decoration: underline;
@@ -181,14 +189,14 @@ body{
     padding-bottom: 10px;
   }
   .content-type-2-section-1 p {
-    font-size: 28px;
+    font-size: 24px;
     padding-top: 5px;
     padding-bottom: 10px;
   }
   .content-type-3-section-1 p {
-    font-size: 29px;
+    font-size: 25px;
     padding-top: 5px;
-    padding-bottom: 9px;
+    padding-bottom: 13px;
   }
   .content-type-4-section-1 p {
     font-size: 30px;
@@ -201,67 +209,67 @@ body{
     padding-bottom: 11px;
   }
   .content-type-6-section-1 p {
-    font-size: 26px;
-    padding-top: 22px;
-    padding-bottom: 4px;
+    font-size: 23px;
+    padding-top: 26px;
+    padding-bottom: 7px;
   }
   .content-type-7-section-1 p {
-    font-size: 25px;
-    padding-top: 19px;
-    padding-bottom: 5px;
+    font-size: 24px;
+    padding-top: 25px;
+    padding-bottom: 8px;
   }
   .content-type-8-section-1 p {
-    font-size: 25px;
+    font-size: 23px;
     padding-top: 22px;
     padding-bottom: 5px;
   }
   .content-type-9-section-1 p {
     font-size: 24px;
-    padding-top: 8px;
+    padding-top: 11px;
     padding-bottom: 5px;
   }
   .content-type-10-section-1 p {
-    font-size: 26px;
+    font-size: 25px;
     padding-top: 19px;
     padding-bottom: 2px;
   }
   .content-type-11-section-1 p {
-    font-size: 24px;
-    padding-top: 24px;
+    font-size: 19px;
+    padding-top: 25px;
     padding-bottom: 1px;
   }
   .content-type-12-section-1 p {
-    font-size: 20px;
+    font-size: 19px;
     padding-top: 25px;
-    padding-bottom: 5px;
+    padding-bottom: 6px;
   }
   .content-type-13-section-1 p {
-    font-size: 22px;
-    padding-top: 27px;
+    font-size: 20px;
+    padding-top: 30px;
     padding-bottom: 5px;
   }
   .content-type-8-section-1 h6 {
-    font-size: 20px;
+    font-size: 18px;
     font-style: italic;
     color: #807e7e;
     padding-bottom: 10px;
   }
   .content-type-9-section-1 h6 {
-    font-size: 20px;
+    font-size: 19px;
     font-style: italic;
     color: #807e7e;
   }
   .content-type-10-section-1 h6 {
-    font-size: 20px;
+    font-size: 19px;
     font-style: italic;
     color: #807e7e;
     padding-bottom: 10px;
   }
   .content-type-11-section-1 h6 {
-    font-size: 20px;
+    font-size: 18px;
     font-style: italic;
     color: #807e7e;
-    padding-bottom: 10px;
+    padding-top: 7px;
   }
   .content-type-12-section-1 h6 {
     font-size: 18px;
@@ -321,17 +329,17 @@ body{
     padding-bottom: 8px;
   }
   .content-type-4-section-1 ul li{
-    font-size: 24px;
+    font-size: 21px;
     list-style-type: disc;
     list-style-position: inside;
   }
   .content-type-5-section-1 ul li{
-    font-size: 23px;
+    font-size: 21px;
     list-style-type: disc;
     list-style-position: inside;
   }
   .content-type-6-section-1 ul li{
-    font-size: 20px;
+    font-size: 18px;
     list-style-type: disc;
     list-style-position: inside;
   }
@@ -351,7 +359,7 @@ body{
     border-radius: 5px;
     background-color: #989da6;
     color: white;
-    font-size: 24px;
+    font-size: 21px;
     padding: 6px 12px;
     margin: 20px 15px 0px 0px;
   }
