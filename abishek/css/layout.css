@@ -29,18 +29,18 @@ padding: 10px;
 a i{
   padding-right: 10px;
 }
-.fc-1 h1 {
+.fi-1 h1 {
 font-size: 55px;
 color: white;
 font-family: 'Noto Sans Display', sans-serif;
 font-weight: 800;
 }
-.fc-1 h4{
+.fi-1 h4{
    font-size: 30px;
    color: #449399;
    padding-bottom: 20px;
 }
-.fc-1 p {
+.fi-1 p {
    color: white;
    font-size: 23px;
 }
@@ -98,7 +98,7 @@ display: flex;
 display: flex;
 justify-content: space-between;
 }
-.content-1 {
+.flexcontainer {
 display: flex;
 padding-top: 34px;
 justify-content: space-evenly;
@@ -170,6 +170,7 @@ font-size: 25px;
   color: #449399;
   font-style: italic;
   padding-top: 2px;
+  padding-bottom: 5px;
   font-size: 20px;
 }
 ul{
