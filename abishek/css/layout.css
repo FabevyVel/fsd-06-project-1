@@ -1,17 +1,17 @@
-* {
+*{
   box-sizing: border-box;
 }
-  body {
-  background-image: url(../doc/resume.jpg);
+body {
+  background-image: url(../image/resume.jpg);
   background-position: center top;
   height: 1750px;
   width: auto;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 600;
 }  
 .header {
   background-color: #303b4c;
   height: 259px;
-  margin-top: 20px;
 }
 .contacts {
   background-color: #222a33; 
@@ -26,25 +26,23 @@ padding: 10px;
  width: 1150px;
  margin: 0 auto;
 }
-.fc-1 {
- padding-right: 0px;
+a i{
+  padding-right: 10px;
 }
-.fc-1 h1 {
+.fi-1 h1 {
 font-size: 55px;
 color: white;
-padding-top: 10px;
-font-family: 'Spectral', serif;
+font-family: 'Noto Sans Display', sans-serif;
 font-weight: 800;
 }
-.fc-1 h4{
+.fi-1 h4{
    font-size: 30px;
    color: #449399;
-   padding-top: 5px;
    padding-bottom: 20px;
 }
-.fc-1 p {
+.fi-1 p {
    color: white;
-   font-size: 24px;
+   font-size: 23px;
 }
 
 .col-1{
@@ -89,9 +87,9 @@ span {
 }
 .content-2 {
 display: flex;
-justify-content: center;
-text-decoration: none;
-padding: 10px;
+justify-content: space-evenly;
+padding: 20px;
+font-size: 23px;
 }
 .fc{
 display: flex;
@@ -100,24 +98,26 @@ display: flex;
 display: flex;
 justify-content: space-between;
 }
-.content-1 {
+.flexcontainer {
 display: flex;
-padding: 5px;
+padding-top: 34px;
 justify-content: space-evenly;
 }
 a{
+text-decoration: none;
 display: inline-block;
 padding: 0 15px;
 color: white;
 font-size: 25px;
 }
 .content-section h2{
-color: #50b9dd;
+color: #449399;
 font-size: 28px;
 text-decoration: underline;
 padding-bottom: 5px;
-padding-top: 10px;
+padding-top: 16px;
 font-weight: bold;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .content-type-1-section{
 padding-top:15px;
@@ -129,7 +129,8 @@ font-weight: bold;
 padding-bottom: 5px;
 } 
 .content-type-1-section p {
-font-size: 25px; 
+  font-size: 25px; 
+  font-weight: 520;
  padding-bottom: 8px;
 }
 .col-48 {
@@ -137,69 +138,24 @@ width: 46%;
 height: 700px;
 }
 .content-type-1-section li {
-font-size: 25px;
+font-size: 24px;
 list-style: inside;
 padding-top: 5px;
 }
 .fc {
   justify-content: space-between;
 }
-.sub-highlight-1-0 {
-color: #78ceeb;
-font-style: italic;
-padding-right: 140px;
-font-size: 20px;
-}
-.sub-highlight-1a {
-color: #78ceeb;
-font-style: italic;
-padding-left: 185px; 
-}
-.sub-highlight-1b {
-color: #78ceeb;
-font-style: italic;
-}
-.sub-highlight-1c {
-color: #78ceeb;
-font-style: italic;
-padding-left: 415px;
-}
-.sub-highlight-1d {
-color: #78ceeb;
-font-style: italic;
-}
-.sub-highlight-1e {
-color: #78ceeb;
-font-style: italic;
-padding-left: 425px;
-}
-.sub-highlight-1f {
-color: #78ceeb;
-font-style: italic;
-}
-.sub-highlight-1g {
-color: #78ceeb;
-font-style: italic;
-padding-left: 340px;
-}
-.sub-highlight-1h {
-color: #78ceeb;
-font-style: italic;
-}
-.sub-highlight-1i {
-color: #78ceeb;
-font-style: italic;
-padding-left: 315px;
+
+.space{
+  color: #449399;
+  font-style: italic;
+  padding-top: 2px;
+  font-size: 20px;
+  justify-content: space-between;
 }
 .sub-highlight-1 li {
 font-size: 20px;
 font-weight: bold;
-}
-.sub-highlight-1{
-color: #78ceeb;
-font-style: italic;
-padding-top: 15px;
-font-size: 20px;
 }
 .sub-highlight-1 li {
 font-size: 30px;
@@ -210,7 +166,18 @@ color: gray;
 font-style: italic;
 font-size: 25px;
 }
-.batch-1 li {
+.sub-highlight-3{
+  color: #449399;
+  font-style: italic;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+ul{
+  display: flex;
+  flex-wrap: wrap
+}
+.box-1 li {
 display: inline-block;
 margin: 5px 15px 5px 5px;
 border-radius: 5px;
@@ -218,7 +185,7 @@ border-style: solid;
 background-color: #989da6;
 color: white;
 padding: 10px;
-font-size: 25px;
+font-size: 23px;
 }
 .batch-2 li {
 display: inline-block;
@@ -233,12 +200,11 @@ padding: 5px;
 font-size: 25px;
 }
 img {
-padding-top: 10px;
 border-radius: 50%;
+border: 5px solid #222a33;
 }
 .list-3 {
 display: flex;
-flex-wrap: wrap;
 justify-content: space-between;
 padding-right: 10px;
 padding-bottom: 20px;

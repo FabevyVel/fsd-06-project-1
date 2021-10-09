@@ -166,7 +166,6 @@ font-size: 27px;
    justify-content: space-between;
     font-weight: 20px;
     display: flex;
-
 }
 .lists li{
     display: inline-block;
@@ -180,13 +179,11 @@ font-size: 27px;
     display: flex;
     justify-content:space-between;
     color:#44939a;
-   
 }
 .co p{
     color: white;
     font-size: 25px;
 }
-
 .w-50 .content-section{
     margin: 5px;
 }
@@ -198,7 +195,6 @@ font-size: 27px;
 .content-type-1-section-2 b{
     font-size: 20px;
     padding: 5px 0px;
-
 }
 .content-type-1-section-2 h6{
     font-size: 18px;
@@ -245,4 +241,10 @@ font-size: 27px;
 }
 .col-12{
     width: 100%;
+}
+.content-type-section{
+    padding: 20px 0
+}
+.content-section-1{
+    padding: 18px 0;
 }

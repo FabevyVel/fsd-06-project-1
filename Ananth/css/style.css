@@ -1,11 +1,12 @@
 .header{
     background-color: #313c4e;
-    height: 200px;
+    height: 259px;
     color: white;
 
 }
 .container{
     display: flex;
+    margin: 0 auto;
 }
 .space-between{
     margin-left: 200px;
@@ -34,7 +35,6 @@ padding-bottom: 5px;
 }
 .contect{
     background-color: #222a33;
-    
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -116,14 +116,12 @@ padding-bottom: 5px;
     font-size: 15px;
     word-spacing: 392px;
     color: #61aabf;
-    display: block;
-  }
+   }
   .sub-highlight2{
     font-style: italic;
     font-size: 15px;
     word-spacing: 380px;
     color: #61aabf;
-    display: block;
   }
   .sub-highlight3{
     font-style: italic;
@@ -140,7 +138,7 @@ padding-bottom: 5px;
   .sub-highlight-1{
     font-style: italic;
     font-size: 15px;
-    color: #61aabf;    padding: 5px 0px;
+    color: #61aabf;    
   }
   .main-container ul li{
     font-size: 18px;
@@ -153,19 +151,20 @@ padding-bottom: 5px;
     border-radius: 5px;
     background-color: #989da6;
     color: white;
-    padding: 4px 2px;
+    padding: 4px ;
     margin: 8px 19px 4px 6px;
   }
   .blocks-1 ul li{
     display: inline-block;
     border: 1px solid;
     border-radius: 10px;
-    padding: 5px 8px;
+    padding: 5px ;
     color: black;
     margin: 16px 10px 22px 0px;
   }
-  .content-type{
+  .content-type{ 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
+ 
