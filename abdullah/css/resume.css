@@ -1,0 +1,108 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.flex-container {
+  display: flex;
+}
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+.col-1 {
+  width: 8.33%;
+  padding: 0 15px;
+  float: left;
+}
+.col-2 {
+  width: 16.66%;
+  padding: 0 15px;
+  float: left;
+}
+.col-3 {
+  width: 25%;
+  padding: 0 15px;
+  float: left;
+}
+.col-4 {
+  width: 33.33%;
+  padding: 0 15px;
+  float: left;
+}
+.col-5 {
+  width: 41.66%;
+  padding: 0 15px;
+  float: left;
+}
+.col-6 {
+  width: 50%;
+  padding: 0 15px;
+  float: left;
+}
+.col-7 {
+  width: 58.33%;
+  padding: 0 15px;
+  float: left;
+}
+.col-8 {
+  width: 66.66%;
+  padding: 0 15px;
+  float: left;
+}
+.col-9 {
+  width: 75%;
+  padding: 0 15px;
+  float: left;
+}
+.col-10 {
+  width: 83.33%;
+  padding: 0 15px;
+  float: left;
+}
+.col-11 {
+  width: 91.66%;
+  padding: 0 15px;
+  float: left;
+}
+.col-12 {
+  width: 100%;
+  padding: 0 15px;
+  float: left;
+}
+.name-sec{
+  text-align: center;
+}
+.name-sec h1{
+  font-size: 50px;
+}
+.name-sec h3{
+  margin: 0px 318px;
+  border: 1px solid #EFAB24;
+  background-color: #EFAB24;
+}
+.contact{
+  text-align: end;
+}
+.contact h3{
+  border-bottom: 2px solid #EFAB24 ;
+}
+.contact-info{
+  display: flex;
+  flex-direction: column;
+}
+.fa-envelope {
+  color: #000;
+  text-decoration: none;
+}
+.fa-phone {
+  color: #000;
+  text-decoration: none;
+}
+.fa-map-marker{
+  color: #000;
+  text-decoration: none;
+}
+.fa-linkedin{
+  color: #000;
+  text-decoration: none;
+}
