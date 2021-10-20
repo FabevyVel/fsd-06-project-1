@@ -1,0 +1,308 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../images/7.png);
+  background-position: center top;
+  height: 1360px;
+  background-repeat: no-repeat;
+  font-family: 'Varela Round', sans-serif;
+}
+.sb {
+  justify-content: space-between;
+}
+.se {
+  justify-content: space-evenly;
+}
+.sa {
+  justify-content: space-around;
+}
+.flex-container {
+  display: flex;
+}
+.container {
+  margin: 0px auto;
+  width: 962px;
+}
+.headings{
+  font-family: 'Comfortaa', cursive;
+}
+/*.fi {
+  border: 1px solid black;
+}*/
+.left-item {
+  background-color: #418f93;
+  /*background-color: rgba(65,143,147,0.32);*/
+  color: white;
+}
+.right-item {
+  background-color: white;
+  color:#415373;
+}
+.header {
+  height: 113px;
+  color: white;
+}
+.name-title {
+  height: 113px;
+  padding: 10px;
+}
+.personal-info {
+  height: 275px;
+}
+.skills {
+  height: 210px;
+}
+.softwares {
+  height: 335px;
+}
+.languages {
+  height: 280px;
+}
+.headings {
+  padding: 8px;
+  font-size: 22px;
+}
+.heading-height {
+  height: 37px;
+  background-color: #313c4ead;
+}
+.header h1 {
+  font-size: 34px;
+  font-weight: bold;
+  padding: 15px 0px;
+  font-family: 'Cookie', cursive;
+}
+.header h4 {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Cookie', cursive;
+}
+.personal-info h3{
+  padding-bottom: 2px;
+}
+.content-section .align {
+  padding: 16px;
+}
+.content-section-1 {
+  padding-bottom: 25px;
+}
+.content-section-1 h3 {
+  font-size: 20px;
+}
+.content-section-1 p {
+  font-size: 16px;
+}
+.content-section-1 a {
+  display: block;
+  font-size: 15px;
+  color: white;
+}
+.skills-1 li {
+  display: block;
+  font-size: 18px;
+  padding-bottom: 16px;
+}
+.skill-progress {
+  height: 10px;
+  width: 100%;
+  background-color: skyblue;
+}
+.skill_per {
+  height: 10px;
+  width: 80%;
+  background-color: white;
+}
+.skill_per_1 {
+  height: 10px;
+  width: 70%;
+  background-color: white;
+}
+.skill_per_2 {
+  height: 10px;
+  width: 65%;
+  background-color: white;
+}
+.skill_per_3 {
+  height: 10px;
+  width: 60%;
+  background-color: white;
+}
+.skill_per_4 {
+  height: 10px;
+  width: 65%;
+  background-color: white;
+}
+.skill_per_5 {
+  height: 10px;
+  width: 100%;
+  background-color: white;
+}
+.skill_per_6 {
+  height: 10px;
+  width: 20%;
+  background-color: white;
+}
+.skills-1 .skill-name h6 {
+  padding-bottom: 12px;
+  font-size: 16px;
+}
+.performance {
+  padding-top: 20px;
+  text-align: end;
+  width: 250px;
+  font-size: 16px;
+}
+.lang h6 {
+  padding-top: 17px;
+}
+.right-item .objective p {
+  font-size: 20px;
+  padding: 25px;
+}
+.right-item .headings h3:before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 650px;
+  background-color: grey;
+  margin-bottom: 10px;
+}
+.right-item .headings h3:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 650px;
+  background-color: grey;
+  margin-top: 10px;
+}
+
+.right-item .headings h3{
+  color:#418f93;
+  font-weight: bolder;
+}
+/*right side container section */
+
+.left-section {
+  padding: 0px 16px;
+}
+.left-section .duration h3 {
+  height: 250px;
+}
+.left-section .duration-1 h3 {
+  height: 205px;
+}
+.left-section .duration-2 h3 {
+  height: 155px;
+}
+.about li {
+  list-style: disc;
+  list-style-position: inside;
+}
+.left-section .duration-4  {
+  height: 115px;
+}
+.left-section .duration-5 {
+  height: 60px;
+}
+.left-section .duration-6 {
+  height: 50px;
+}
+.left-section .duration-7{
+  height: 25px;
+}
+.left-section h3{
+  font-size: 18px;
+}
+.left-section br{
+  padding-bottom: 5px;
+}
+
+/*right side conatiner section*/
+.right-section {
+  padding: 0px 16px;
+}
+.right-section .duration {
+  height: 250px;
+}
+.right-section .duration-1 {
+  height: 205px;
+}
+.right-section .duration-2 {
+  height: 155px;
+}
+.right-section .duration-4  {
+  height: 115px;
+}
+.right-section .duration-5 {
+  height: 60px;
+}
+.right-section .duration-6 {
+  height: 50px;
+}
+.right-section .duration-7{
+  height: 25px;
+}
+.right-section h3{
+  font-size: 25px;
+  padding-bottom: 5px;
+}
+.right-section p{
+  font-size: 20px;
+}
+.right-section .about ul{
+  padding-top: 8px;
+}
+.right-section .about li{
+  padding-bottom: 8px;
+}
+
+
+.col-30 {
+  width: 30.333333%;
+}
+.col-70 {
+  width: 70.666667%;
+}
+.col-left {
+  width: 12.666667%;
+}
+.col-right {
+  width: 55%;
+}
+.col-1 {
+  width: 8.333333333333333%;
+}
+.col-2 {
+  width: 16.66666666666667%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33333333333333%;
+}
+.col-5 {
+  width: 41.66666666666667%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33333333333333%;
+}
+.col-8 {
+  width: 66.66666666666667%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33333333333333%;
+}
+.col-11 {
+  width: 91.66666666666667%;
+}
+.col-12 {
+  width: 100%;
+}
