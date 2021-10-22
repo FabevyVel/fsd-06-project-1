@@ -1,0 +1,193 @@
+body {
+  font-family: "Courgette", cursive;
+}
+.flex-container {
+  display: flex;
+}
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+.col-1 {
+  width: 8.33%;
+  padding: 0 15px;
+  float: left;
+}
+.col-2 {
+  width: 16.66%;
+  padding: 0 15px;
+  float: left;
+}
+.col-3 {
+  width: 25%;
+  padding: 0 15px;
+  float: left;
+}
+.col-4 {
+  width: 33.33%;
+  padding: 0 15px;
+  float: left;
+}
+.col-5 {
+  width: 41.66%;
+  padding: 0 15px;
+  float: left;
+}
+.col-6 {
+  width: 50%;
+  padding: 0 15px;
+  float: left;
+}
+.col-7 {
+  width: 58.33%;
+  padding: 0 15px;
+  float: left;
+}
+.col-8 {
+  width: 66.66%;
+  padding: 0 15px;
+  float: left;
+}
+.col-9 {
+  width: 75%;
+  padding: 0 15px;
+  float: left;
+}
+.col-10 {
+  width: 83.33%;
+  padding: 0 15px;
+  float: left;
+}
+.col-11 {
+  width: 91.66%;
+  padding: 0 15px;
+  float: left;
+}
+.col-12 {
+  width: 100%;
+  padding: 0 15px;
+  float: left;
+}
+.empty::after {
+  content: " ";
+  display: block;
+  margin: 10px 0;
+  background-color: #efab24;
+  width: 25px;
+  height: 100px;
+  margin-left: auto;
+}
+.name-sec {
+  margin-bottom: 40px;
+}
+.name-sec h1 {
+  font-size: 50px;
+}
+.name-sec h2 {
+  margin-right: 280px;
+  border: 1px solid #efab24;
+  background-color: #efab24;
+}
+.contact {
+  text-align: end;
+}
+.contact h2::after {
+  content: " ";
+  display: block;
+  margin: 10px 0;
+  background-color: #efab24;
+  width: 40px;
+  height: 5px;
+  margin-left: auto;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+.contact-info a {
+  padding: 10px 0;
+  text-decoration: none;
+  color: #000;
+}
+.fa-envelope::before {
+  text-decoration: none;
+  padding: 8px;
+  background: #000;
+  color: #fff;
+  border-radius: 10px;
+}
+.fa-phone::before {
+  text-decoration: none;
+  padding: 8px;
+  background: #000;
+  color: #fff;
+  border-radius: 10px;
+}
+.fa-map-marker::before {
+  text-decoration: none;
+  padding: 8px;
+  background: #000;
+  color: #fff;
+  border-radius: 10px;
+}
+.fa-linkedin::before {
+  text-decoration: none;
+  padding: 8px;
+  background: #000;
+  color: #fff;
+  border-radius: 10px;
+}
+.fa-github::before{
+  text-decoration: none;
+  padding: 8px;
+  background: #000;
+  color: #fff;
+  border-radius: 10px;
+}
+.hobby li {
+  margin: 10px;
+  background-color: #efab24;
+  text-decoration: none;
+  border: 1px solid #efab24;
+}
+.keyskills {
+  text-align: justify;
+}
+.skills h2::after {
+  content: " ";
+  display: block;
+  margin: 10px 0;
+  background-color: #efab24;
+  width: 40px;
+  height: 5px;
+}
+.tech h3 {
+  text-decoration: 2px underline #efab24;
+}
+.edu-sec h2 .underline {
+  display: block;
+  margin: 10px 0;
+  background-color: #efab24;
+  width: 40px;
+  height: 5px;
+}
+.percent {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px 20px;
+}
+.decleration {
+  margin-top: 30px;
+  text-align: center;
+}
+.decleration h2::after {
+  content: " ";
+  display: block;
+  margin: 15px 440px;
+  background-color: #efab24;
+  width: 70px;
+  height: 5px;
+}
+.place {
+  text-align: left;
+}
