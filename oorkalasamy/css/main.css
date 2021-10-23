@@ -7,6 +7,7 @@
   height: 1750px;
   width: auto;
   font-family: 'Oswald', sans-serif;
+  font-size: 15px;
 }  
 .header {
   background-color: #303b4c;
@@ -110,6 +111,7 @@ display: inline-block;
 padding: 0 15px;
 color: white;
 font-size: 25px;
+text-decoration: none;
 }
 .content-section h2{
 color: #50b9dd;
@@ -137,7 +139,7 @@ width: 46%;
 height: 700px;
 }
 .content-type-1-section li {
-font-size: 25px;
+font-size: 23px;
 list-style: inside;
 padding-top: 5px;
 }
@@ -147,53 +149,52 @@ padding-top: 5px;
 .sub-highlight-1-0 {
 color: #78ceeb;
 font-style: italic;
-padding-right: 140px;
 font-size: 20px;
 }
 .sub-highlight-1a {
 color: #78ceeb;
 font-style: italic;
-padding-left: 185px; 
+font-size: 20px;
 }
 .sub-highlight-1b {
 color: #78ceeb;
 font-style: italic;
+font-size: 20px;
 }
 .sub-highlight-1c {
 color: #78ceeb;
 font-style: italic;
-padding-left: 415px;
+font-size: 20px;
 }
 .sub-highlight-1d {
 color: #78ceeb;
 font-style: italic;
+font-size: 20px;
 }
 .sub-highlight-1e {
 color: #78ceeb;
 font-style: italic;
-padding-left: 425px;
+font-size: 20px;
 }
 .sub-highlight-1f {
 color: #78ceeb;
 font-style: italic;
+font-size: 20px;
 }
 .sub-highlight-1g {
 color: #78ceeb;
 font-style: italic;
-padding-left: 340px;
+font-size: 20px;
 }
 .sub-highlight-1h {
 color: #78ceeb;
 font-style: italic;
+font-size: 20px;
 }
 .sub-highlight-1i {
 color: #78ceeb;
 font-style: italic;
-padding-left: 315px;
-}
-.sub-highlight-1 li {
 font-size: 20px;
-font-weight: bold;
 }
 .sub-highlight-1{
 color: #78ceeb;
@@ -208,7 +209,7 @@ font-weight: bold;
 .sub-highlight-2 {
 color: gray;
 font-style: italic;
-font-size: 25px;
+font-size: 20px;
 }
 .batch-1 li {
 display: inline-block;
