@@ -1,0 +1,214 @@
+.flex-container {
+  display: flex;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #323639;
+  padding: 20px 0;
+}
+.name-sec {
+  color: #fff;
+  margin-top: 20px;
+}
+.name-sec h1 {
+  font-size: 45px;
+}
+.name-sec h3 {
+  font-size: 25px;
+  color: rgb(34, 114, 138);
+}
+.name-sec p {
+  font-size: 14px;
+}
+.img-sec img {
+  width: 140px;
+  height: 140px;
+  border-radius: 100%;
+}
+#section-1 {
+  padding: 15px 370px;
+  background-color: black;
+}
+.contact {
+  color: #fff;
+}
+.fa-envelope {
+  padding-left: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+.fa-phone {
+  padding: 0px 45px;
+  text-decoration: none;
+  color: #fff;
+}
+.edu-sec {
+  width: 48%;
+}
+.edu-sec h2 {
+  padding: 10px 0;
+  font-size: 25px;
+  color: rgb(3, 103, 150);
+  text-decoration: underline;
+}
+.edu-sec h3 {
+  font-weight: 500;
+  padding: 10px 0;
+  font-size: 20px;
+}
+.edu-sec h4 {
+  padding: 10px 0;
+  font-size: 14px;
+}
+.edu-sec span {
+  margin-left: 30px;
+  padding: 1% 7%;
+  color: rgb(3, 103, 150);
+}
+.skill-sec {
+  width: 48%;
+}
+.skills-sec h2 {
+  padding: 10px 0;
+  font-size: 25px;
+  color: rgb(3, 103, 150);
+  text-decoration: underline;
+}
+.skills-sec {
+  text-decoration: none;
+}
+.skills-sec span {
+  display: inline-block;
+  text-align: center;
+  padding: 8px 8px;
+  border-radius: 10px;
+  background-color: rgb(158, 155, 155);
+  color: #fff;
+  margin: 8px 10px;
+}
+.language {
+  width: 48%;
+}
+.language h2 {
+  padding: 10px 0;
+  font-size: 25px;
+  color: rgb(3, 103, 150);
+  text-decoration: underline;
+}
+.lang-1 {
+  display: inline-block;
+  text-align: center;
+  margin: 20px 40px;
+}
+.lang-1 h6 {
+  font-size: 14px;
+  color: gray;
+}
+.lang-2 {
+  display: inline-block;
+  text-align: center;
+  margin: 20px 10px;
+}
+.lang-2 h6 {
+  font-size: 14px;
+  color: gray;
+}
+.lang-3 {
+  display: inline-block;
+  text-align: center;
+  margin: 20px 140px;
+}
+.lang-3 h6 {
+  font-size: 14px;
+  color: gray;
+}
+.intrest h2 {
+  padding: 10px 0;
+  font-size: 25px;
+  color: rgb(3, 103, 150);
+  text-decoration: underline;
+}
+.info {
+  width: 48%;
+}
+.int-cont {
+  display: flex;
+}
+.int-cont h5 {
+  color: #fff;
+  padding: 10px 20px;
+  border: hidden;
+  border-radius: 10px;
+  background-color: rgb(158, 155, 155);
+  text-align: center;
+  margin: 10px 20px;
+}
+.certificates {
+  width: 48%;
+}
+.certificates h2 {
+  padding: 10px 0;
+  font-size: 25px;
+  color: rgb(3, 103, 150);
+  text-decoration: underline;
+}
+.certificates h3{
+    font-size: 24px;
+}
+.certificates h6{
+    font-size: 16px;
+}
+.info h2 {
+  padding: 10px 0;
+  font-size: 25px;
+  color: rgb(3, 103, 150);
+  text-decoration: underline;
+}
+.info h3 {
+  font-size: 20px;
+  padding: 10px 0;
+  color: rgb(3, 103, 150);
+}
+.info h4 {
+  margin: 10px 35px;
+}
+.dob {
+  padding-left: 15px;
+}
+.address {
+  padding-left: 15px;
+}
+.work {
+  width: 48%;
+}
+.work h2 {
+  padding: 10px 0;
+  font-size: 25px;
+  color: rgb(3, 103, 150);
+  text-decoration: underline;
+}
+.work h3 {
+  font-size: 24px;
+  margin: 25px 0;
+}
+.dec {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+.dec h3 {
+  font-size: 24px;
+  text-decoration: underline;
+  margin: 25px 0;
+  color: rgb(3, 103, 150);
+}
+.dec-cont {
+  margin: 25px 0;
+}
+.dec-cont h3 {
+  margin: 25px 0;
+  font-size: 20px;
+}

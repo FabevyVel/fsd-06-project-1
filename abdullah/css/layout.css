@@ -1,0 +1,152 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.flex-container {
+  display: flex;
+}
+.fc-l {
+  display: inline-block;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.main-sec {
+  padding: 5px;
+  background-color: #fff;
+}
+.header {
+  background-color: #323639;
+  padding: 20px 0;
+}
+.name-sec {
+  color: #fff;
+  margin-top: 20px;
+}
+.name-sec h1 {
+  font-size: 45px;
+}
+.name-sec h3 {
+  font-size: 25px;
+  color: rgb(34, 114, 138);
+}
+.name-sec p {
+  font-size: 14px;
+}
+.img-sec img {
+  width: 140px;
+  height: 140px;
+  border-radius: 100%;
+}
+#contact {
+  background-color: black;
+}
+.contacts {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+.fa-envelope {
+  padding-right: 15px;
+  text-decoration: none;
+  color: #fff;
+}
+.fa-phone {
+  text-decoration: none;
+  color: #fff;
+}
+.location {
+  text-decoration: none;
+  padding-left: 15px;
+  color: #fff;
+}
+.edu-sec {
+  margin-top: 30px;
+}
+.heading {
+  font-family: 'Croissant One', cursive;
+  padding: 10px 0;
+  font-size: 25px;
+  color: rgb(3, 103, 150);
+  text-decoration: underline;
+}
+.edu-sec h3 {
+  font-weight: 500;
+  padding: 10px 0;
+  font-size: 20px;
+}
+.edu-sec h4 {
+  padding: 10px 0;
+  font-size: 14px;
+}
+.percent {
+  color: rgb(3, 103, 150);
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px;
+}
+.work-exp {
+  margin-top: 30px;
+}
+.work-exp h3 {
+  font-weight: 500;
+  padding: 10px 0;
+  font-size: 22px;
+}
+.work-exp h4 {
+  font-weight: 500;
+  font-size: 18px;
+}
+.work-exp span {
+  padding: 10px 0;
+  color: rgb(3, 103, 150);
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px;
+}
+.work-exp li {
+  font-size: 16px;
+  padding: 10px;
+}
+.skills-sec {
+  margin-top: 30px;
+}
+.skills-sec li {
+  display: inline-block;
+  text-align: center;
+  padding: 8px 8px;
+  border-radius: 10px;
+  background-color: rgb(158, 155, 155);
+  color: #fff;
+  margin: 8px 10px;
+}
+.content h6 {
+  font-size: 14px;
+  color: gray;
+}
+.projects li {
+  padding: 8px 8px;
+  margin: 8px 10px;
+}
+.certificates h6 {
+  padding: 10px 0;
+  font-size: 16px;
+  color: gray;
+}
+.languages h4{
+  font-size: 16px;
+}
+.languages h6 {
+  padding: 10px 0;
+  font-size: 16px;
+  color: gray;
+}
+.interest li {
+  display: inline-block;
+  text-align: center;
+  padding: 8px 8px;
+  border-radius: 10px;
+  border: 2px solid;
+  margin: 8px 10px;
+}
