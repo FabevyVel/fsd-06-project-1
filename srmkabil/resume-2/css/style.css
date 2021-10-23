@@ -1,0 +1,293 @@
+body{
+    font-family: 'Redressed', cursive;
+}
+.container{
+    width: 1142px;
+    margin: 0 auto;
+}
+.header{
+    height: 230px;
+}
+.fil p{
+    padding: 52px 10px 10px 104px;
+    background-color: #003d74;
+    color: #fff;
+    font-size: 22px;
+}
+.flex-item-left h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 18px;
+    color: #003d74;
+}
+.flex-item-left h6{
+    font-size: 25px;
+    color: #003d74;
+}
+.flex-item-right p{
+    margin: 18px 0px 0px 10px;
+    font-size: 25px;
+    line-height: 30px;
+}
+.flex-content{
+    display: flex;
+}
+.main-content{
+    height: 1130px;
+}
+.personal_info h1{
+    margin-top: 20px;
+    font-weight: bold;
+    color: #003d74;
+    font-size: 30px;
+}
+.personal_info h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.personal_info p{
+    font-size: 18px;
+    margin: 10px 0px;
+    line-height: 25px;
+}
+.skills h1{
+    margin-top: 20px;
+    font-weight: bold;
+    color: #003d74;
+    font-size: 30px;
+}
+.skills ul li{
+    font-size: 18px;
+    line-height: 30px;
+}
+.Software h1{
+    margin-top: 20px;
+    font-weight: bold;
+    color: #003d74;
+    font-size: 30px;
+}
+.html-software{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.html-1 p{
+    font-size: 18px;
+    margin: 10px 0px;
+}
+.html-2{
+        padding: 0px 5px;
+    display: flex;
+}
+.html-3 p{
+    font-size: 18px;
+    margin-left: 217px;
+}
+.htmls p:after{
+    content: "";
+    border-bottom: #003d74 15px solid;
+    width: 15px;
+    margin: 10px 5px;
+    display: block;
+}
+.htmls-1 p:after{
+    content: "";
+    border-bottom: gray 15px solid;
+    width: 15px;
+    margin: 10px 5px;
+    display: block;
+}
+.languages h1{
+    margin-top: 20px;
+    font-weight: bold;
+    color: #003d74;
+    font-size: 30px;
+}
+.tamil{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.right-flex-item{
+    margin-left: 93px;
+}
+.right-side-item{
+    margin-left: 42px;
+}
+.rsi li{
+    padding-left: 26px;
+}
+.experience h1{
+    margin-top: 20px;
+    font-weight: bold;
+    color: #003d74;
+    font-size: 30px;
+}
+.experience i{
+    padding-right: 20px;
+}
+.date-1 p{
+    margin-top: 9px;
+    margin-bottom: 226px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.date-2 p{
+    margin-top: 9px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.content-1 h2{
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #000;
+}
+.content-1 p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.content-2 p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.content-1 ul li{
+    margin-top: 10px;
+    line-height: 15px;
+    font-size: 18px;
+    list-style-position: inside;
+    list-style-type: disc;
+}
+.content-2 h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 35px;
+    color: #000;
+}
+.content-2 ul li{
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 15px;
+    list-style-position: inside;
+    list-style-type: disc;
+}
+.education h1{
+    margin-top: 20px;
+    font-weight: bold;
+    color: #003d74;
+    font-size: 30px;
+}
+.date-3 p{
+    margin-top: 9px;
+    margin-bottom: 26px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.date-4 p{
+    margin-top: 9px;
+    font-weight: bold;
+    font-size: 19px;
+}
+.content-3 h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 9px;
+    color: #000;
+}
+.content-4 h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 9px;
+    color: #000;
+}
+.content-5 h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 9px;
+    color: #000;
+}
+.content-3 p{
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.content-4 p{
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.content-5 p{
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.certification h1{
+    margin-top: 20px;
+    font-weight: bold;
+    color: #003d74;
+    font-size: 30px;
+}
+.date-5 p{
+    margin-top: 9px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.content-6 h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 9px;
+    color: #000;
+}
+.interests h1{
+    margin-top: 20px;
+    font-weight: bold;
+    color: #003d74;
+    font-size: 30px;
+}
+.interests-item h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 9px 0px 9px 163px;
+    color: #000;
+}
+.right-item p:after{
+    content: "";
+    border-bottom: #003d74 84px solid;
+    width: 674px;
+    margin-top: 80px;
+    display: block;
+}
+.col-1{
+    width: 8.33%;
+  }
+  .col-2{
+    width: 16.66%;
+  }
+  .col-3{
+    width: 25%;
+  }
+  .col-4{
+    width: 33.33%;
+  }
+  .col-5{
+    width: 41.66%;
+  }
+  .col-6{
+    width: 50%;
+  }
+  .col-7{
+    width: 58.33%;
+  }
+  .col-8{
+    width: 66.66%;
+  }
+  .col-9{
+    width: 75%;
+  }
+  .col-10{
+    width: 83.33%;
+  }
+  .col-11{
+    width: 91.66%;
+  }
+  .col-12{
+    width: 100%;
+  }
